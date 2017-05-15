@@ -1,25 +1,25 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/user/user"
+    "pages/user/userCenter/userCenter",
+    "pages/user/userOrder/userOrder"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#c34b58",
+    "navigationBarTitleText": "饮唐风",
+    "navigationBarTextStyle": "#c34b58"
   },
   "tabBar": {
     "list": [
       {
         "pagePath": "pages/index/index",
         "text": "饮唐风",
-         
         "iconPath": "resource/assets/image/tabbarImage/maicha.png",
         "selectedIconPath": "resource/assets/image/tabbarImage/maichaSelect.png"
       },
       {
-        "pagePath": "pages/user/user",
+        "pagePath": "pages/user/userCenter/userCenter",
         "text": "个人中心",
         "iconPath": "resource/assets/image/tabbarImage/geren.png",
         "selectedIconPath": "resource/assets/image/tabbarImage/geren Select.png"

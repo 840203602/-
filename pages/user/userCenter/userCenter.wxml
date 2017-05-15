@@ -1,0 +1,21 @@
+<!--用户中心-->
+<view class="container">
+  <view bindtap="tapAvatar" class="userInfo">
+    <image class="userAvatar" src="{{userInfo.avatarUrl}}" mode="scaleToFill">
+    </image>
+    <text class="userName">{{userInfo.nickName}}</text>
+  </view>
+  <view class="userInfo_list">
+    <block wx:for="{{userListInfo}}">
+      <view class="itemCell">
+        <view class="itemCellImage">
+          <image class="itemCellImageValue" src="{{item.icon}}"></image>
+        </view>
+        <view class="itemCellText">
+          <view class="itemCellTextValue">{{item.text}}</view>
+        </view>
+        <image class="jinruImage" src="{{item.rightIcon}}"></image>
+      </view>
+    </block>
+  </view>
+</view>
