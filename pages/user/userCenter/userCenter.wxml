@@ -7,6 +7,7 @@
   </view>
   <view class="userInfo_list">
     <block wx:for="{{userListInfo}}">
+    <navigator url="../../user/userOrder/userOrder">
       <view class="itemCell">
         <view class="itemCellImage">
           <image class="itemCellImageValue" src="{{item.icon}}"></image>
@@ -16,6 +17,7 @@
         </view>
         <image class="jinruImage" src="{{item.rightIcon}}"></image>
       </view>
+      </navigator>
     </block>
   </view>
 </view>

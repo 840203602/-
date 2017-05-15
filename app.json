@@ -15,6 +15,7 @@
       {
         "pagePath": "pages/index/index",
         "text": "饮唐风",
+         
         "iconPath": "resource/assets/image/tabbarImage/maicha.png",
         "selectedIconPath": "resource/assets/image/tabbarImage/maichaSelect.png"
       },

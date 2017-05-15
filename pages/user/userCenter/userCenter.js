@@ -100,5 +100,8 @@ Page({
    */
   onPullDownRefresh: function () {
 
+  },
+  tapAvatar:function(){
+     console.log("方法触发了");
   }
 })
