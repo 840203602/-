@@ -9,18 +9,18 @@ Page({
     userInfo: {},
     /**设置用户中心列表项 */
     userListInfo: [{
-      icon: '../../../resource/assets/image/userImage/dingdan.png',
+      icon: '/resource/assets/image/userImage/dingdan.png',
       text: '我的订单',
-      rightIcon: '../../../resource/assets/image/userImage/jinru.png',
+      rightIcon: '/resource/assets/image/userImage/jinru.png',
     }, {
-      icon: '../../../resource/assets/image/userImage/yijianfankui.png',
+      icon: '/resource/assets/image/userImage/yijianfankui.png',
       text: '意见反馈',
-      rightIcon: '../../../resource/assets/image/userImage/jinru.png'
+      rightIcon: '/resource/assets/image/userImage/jinru.png'
       ,
     }, {
-      icon: '../../../resource/assets/image/userImage/guanyu.png',
+      icon: '/resource/assets/image/userImage/guanyu.png',
       text: '关于',
-      rightIcon: '../../../resource/assets/image/userImage/jinru.png'
+      rightIcon: '/resource/assets/image/userImage/jinru.png'
 
     }]
   },
@@ -101,7 +101,7 @@ Page({
   onPullDownRefresh: function () {
 
   },
-  tapAvatar:function(){
-     console.log("方法触发了");
+  tapAvatar: function () {
+    console.log("方法触发了");
   }
 })

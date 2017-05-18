@@ -1,3 +1,4 @@
+
 Page({
   data: {
     imgUrls: [
@@ -7,7 +8,53 @@ Page({
     indicatorDots: true,
     autoplay: true,
     interval: 5000,
-    duration: 1000
+    duration: 1000,
+    teaList: [{
+      teaUrl: '/resource/assets/image/teaImage/longjing',
+      teaName: '龙井',
+      teaType: '绿茶',
+      teaPrice: '5.99',
+    }, {
+      teaUrl: '/resource/assets/image/teaImage/dahongpao',
+      teaName: '大红袍',
+      teaType: '红茶',
+      teaPrice: '5.99',
+    }, {
+      teaUrl: '/resource/assets/image/teaImage/dianhong',
+      teaName: '滇红',
+      teaType: '红茶',
+      teaPrice: '5.99',
+    }, {
+      teaUrl: '/resource/assets/image/teaImage/baicha',
+      teaName: '白毫银针',
+      teaType: '白茶',
+      teaPrice: '5.99',
+    }, {
+      teaUrl: '/resource/assets/image/teaImage/puershengcha',
+      teaName: '普洱(生茶)',
+      teaType: '黑茶',
+      teaPrice: '5.99',
+    }, {
+      teaUrl: '/resource/assets/image/teaImage/puershucha',
+      teaName: '普洱(熟茶)',
+      teaType: '黑茶',
+      teaPrice: '5.99',
+    }, {
+      teaUrl: '/resource/assets/image/teaImage/molihuacha',
+      teaName: '茉莉花',
+      teaType: '花茶',
+      teaPrice: '5.99',
+    }, {
+      teaUrl: '',
+      teaName: '正山小种',
+      teaType: '红茶',
+      teaPrice: '5.99',
+    }, {
+      teaUrl: '/resource/assets/image/teaImage/tieguanyin',
+      teaName: '铁观音',
+      teaType: '乌龙茶',
+      teaPrice: '5.99',
+    }]
   },
 
   onLoad: function (options) {
