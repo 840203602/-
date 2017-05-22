@@ -2,7 +2,9 @@
   "pages": [
     "pages/index/index",
     "pages/user/userCenter/userCenter",
-    "pages/user/userOrder/userOrder"
+    "pages/user/userOrder/userOrder",
+    "pages/teaDetail/teaDetail",
+    "pages/changeAddress/changeAddress"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -15,7 +17,6 @@
       {
         "pagePath": "pages/index/index",
         "text": "饮唐风",
-         
         "iconPath": "resource/assets/image/tabbarImage/maicha.png",
         "selectedIconPath": "resource/assets/image/tabbarImage/maichaSelect.png"
       },

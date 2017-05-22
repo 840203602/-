@@ -1,7 +1,7 @@
 /**index.wxss**/
 
 .backgroundView {
-  background-color: red;
+  background-color: white;
   width: 100%;
 }
 
@@ -53,4 +53,49 @@
   right: 15rpx;
   padding-top: 15rpx;
   padding-bottom: 15rpx;
+}
+
+.clear {
+  clear: both;
+}
+
+.teaList {
+  margin-top: 15rpx;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.teaView {
+  width: 230rpx;
+  float: left;
+  border-radius: 15rpx;
+  margin-left: 15rpx;
+  flex-direction: column;
+  background-color: #e6e6e6;
+  margin-bottom: 15rpx;
+}
+
+.teaImage {
+  width: 230rpx;
+  height: 270rpx;
+  background-color: #e6e6e6;
+  border-radius: 10rpx 10rpx 0 0;
+}
+
+.teaName {
+  font-size: 28rpx;
+  color: black;
+  margin-top: 15rpx;
+  margin-left: 5rpx;
+  text-align: center;
+}
+
+.teaType {
+  font-size: 20rpx;
+  color: #c34b58;
+  margin-top: 15rpx;
+  margin-bottom: 15rpx;
+  margin-left: 5rpx;
+  text-align: center;
 }

@@ -1,0 +1,9 @@
+<!--changeAddress.wxml-->
+
+<view class="addressList">
+   <block wx:for="{{addressList}}">
+     <view class="addressDetailView">
+       <view class="addressDetailValue">{{item.addressDetail}}</view>
+     </view>
+   </block>
+</view>

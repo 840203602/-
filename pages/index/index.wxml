@@ -1,7 +1,7 @@
 <view class="backgroundView">
   <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
     <block wx:for="{{imgUrls}}">
-      <navigator url="user/userOrder/userOrder">
+      <navigator url="pages/user/userOrder/userOrder">
         <swiper-item>
           <image src="{{item}}" class="slide-image" />
         </swiper-item>
@@ -9,10 +9,23 @@
 
     </block>
   </swiper>
-  <view class="addressView">
-    <view class="address">康惠园3号院5号楼1401</view>
-    <view class="changeAddress arrow-right">更换地址</view>
+  <navigator url="/pages/changeAddress/changeAddress">
+    <view class="addressView">
+      <view class="address">康惠园3号院5号楼1401</view>
+      <view class="changeAddress arrow-right">更换地址</view>
+    </view>
+  </navigator>
+  <view class="teaList">
+    <block wx:for="{{teaLists}}">
+      <navigator url="/pages/teaDetail/teaDetail?title={{item.teaName}}">
+        <view class="teaView">
+          <image class="teaImage" src="{{item.teaUrl}}"></image>
+          <view class="teaName">{{item.teaName}}</view>
+          <view class="teaType">{{item.teaType}}</view>
+        </view>
+      </navigator>
+    </block>
+    <view class="clear"></view>
   </view>
   
-
 </view>

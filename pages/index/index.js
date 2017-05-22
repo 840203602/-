@@ -1,3 +1,7 @@
+// import '/datas/teaList.json'
+// import  {} from "/datas/teaList.json"
+
+var app = getApp();
 
 Page({
   data: {
@@ -9,57 +13,61 @@ Page({
     autoplay: true,
     interval: 5000,
     duration: 1000,
-    teaList: [{
-      teaUrl: '/resource/assets/image/teaImage/longjing',
-      teaName: '龙井',
+    teaLists: [{
+      teaUrl: '/resource/assets/image/teaImage/baicha.jpg',
+      teaName: '普洱生茶',
       teaType: '绿茶',
       teaPrice: '5.99',
     }, {
-      teaUrl: '/resource/assets/image/teaImage/dahongpao',
+      teaUrl: '/resource/assets/image/teaImage/puershucha.jpg',
+      teaName: '普洱熟茶',
+      teaType: '红茶',
+      teaPrice: '5.99',
+    }, {
+      teaUrl: '/resource/assets/image/teaImage/dahongpao.jpg',
       teaName: '大红袍',
-      teaType: '红茶',
-      teaPrice: '5.99',
-    }, {
-      teaUrl: '/resource/assets/image/teaImage/dianhong',
-      teaName: '滇红',
-      teaType: '红茶',
-      teaPrice: '5.99',
-    }, {
-      teaUrl: '/resource/assets/image/teaImage/baicha',
-      teaName: '白毫银针',
-      teaType: '白茶',
-      teaPrice: '5.99',
-    }, {
-      teaUrl: '/resource/assets/image/teaImage/puershengcha',
-      teaName: '普洱(生茶)',
       teaType: '黑茶',
       teaPrice: '5.99',
     }, {
-      teaUrl: '/resource/assets/image/teaImage/puershucha',
-      teaName: '普洱(熟茶)',
+      teaUrl: '/resource/assets/image/teaImage/fenghuangdancong.jpg',
+      teaName: '凤凰单丛',
       teaType: '黑茶',
       teaPrice: '5.99',
     }, {
-      teaUrl: '/resource/assets/image/teaImage/molihuacha',
-      teaName: '茉莉花',
+      teaUrl: '/resource/assets/image/teaImage/jinjunmei.jpg',
+      teaName: '金骏眉',
       teaType: '花茶',
       teaPrice: '5.99',
     }, {
-      teaUrl: '',
-      teaName: '正山小种',
+      teaUrl: '/resource/assets/image/teaImage/juhua.jpg',
+      teaName: '菊花',
       teaType: '红茶',
       teaPrice: '5.99',
     }, {
-      teaUrl: '/resource/assets/image/teaImage/tieguanyin',
+      teaUrl: '/resource/assets/image/teaImage/molihua.jpg',
+      teaName: '茉莉花',
+      teaType: '乌龙茶',
+      teaPrice: '5.99',
+    }, {
+      teaUrl: '/resource/assets/image/teaImage/tieguanyin.jpg',
       teaName: '铁观音',
+      teaType: '乌龙茶',
+      teaPrice: '5.99',
+    }, {
+      teaUrl: '/resource/assets/image/teaImage/yulu.jpg',
+      teaName: '玉露',
       teaType: '乌龙茶',
       teaPrice: '5.99',
     }]
   },
 
   onLoad: function (options) {
-    // 生命周期函数--监听页面加载
 
+    // 生命周期函数--监听页面加载
+    var that = this;
+    that.setData({
+
+    });
   },
   onReady: function () {
     // 生命周期函数--监听页面初次渲染完成
@@ -79,7 +87,7 @@ Page({
   },
   onPullDownRefresh: function () {
     // 页面相关事件处理函数--监听用户下拉动作
-
+    console.log("用户下拉了");
   },
   onReachBottom: function () {
     // 页面上拉触底事件的处理函数

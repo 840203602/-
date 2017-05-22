@@ -1,0 +1,17 @@
+/* changeAddress.wxss */
+
+.addressList {
+  background-color: white;
+}
+
+.addressDetailView {
+  width: 100%;
+  height: 100rpx;
+  border-bottom: 1px solid #dadada;
+}
+
+.addressDetailValue {
+  font-size: 30rpx;
+  line-height: 100rpx;
+  padding-left: 15rpx;
+}
